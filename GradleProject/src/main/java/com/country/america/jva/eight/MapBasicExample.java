@@ -10,7 +10,8 @@ public class MapBasicExample {
 
 		List<String> list = Arrays.asList("mahender", "ramesh", "suresh");
 
-		//Filter outputs new stream
+		//map will convert one object form to other form of object
+		//Like person to string {person::getName}
 		Stream<String> newList = list.stream()
 				.map(item -> item.toUpperCase());
 
