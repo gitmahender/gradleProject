@@ -3,14 +3,7 @@ code for all the collect(Collector.asList, assingleton, joints, split, groupingB
 code for reduce
 code for sort
 code for limit
-code for findany
-code for findfirst
-code for matchany
-code for matchall
-code for count
-code for distinct
 code for flatmap
-code for ispresent
 code for orElseget()
 code for max
 code for min
