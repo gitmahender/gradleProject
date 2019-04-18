@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Spliterator;
 import java.util.Spliterators;
 import java.util.regex.Pattern;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
@@ -86,7 +87,7 @@ public class WaysToCreateStream {
 		.filter(p.asPredicate()) 
 		.forEach(System.out::println);
 
-		
+
 		//Way 10: 
 		// Convert the iterator into a Spliterator
 		// Get the Iterator 
@@ -101,6 +102,16 @@ public class WaysToCreateStream {
 		// Convert spliterator into a sequential stream 
 		Stream<String> streamIterator 
 		= StreamSupport.stream(spitr, false); 
+
+		
+		
+		//Way 11: Using patter and split as stream
+		Pattern patt = Pattern.compile(",");
+		patt.splitAsStream("a,b,c")
+		.forEach(System.out::println);
+		
+		//Way 12: The below would print out the numbers one through ten
+		IntStream.range(1, 11).forEach(System.out::println);
 
 	}
 
