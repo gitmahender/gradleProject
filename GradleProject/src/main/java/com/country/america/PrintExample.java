@@ -1,13 +1,13 @@
 /**
  * 
  */
-package com.medchal.dist;
+package com.country.america;
 
 /**
  * @author 74
  *
  */
-public class Medchal {
+public class PrintExample {
 
 	/**
 	 * @param args
