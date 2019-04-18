@@ -1,0 +1,12 @@
+intermediate methods:
+map
+filter
+peek
+sorted
+
+
+terminal operation:
+reduce
+forEach
+
+Intermediate methods are not executed until the terminal options are performed
