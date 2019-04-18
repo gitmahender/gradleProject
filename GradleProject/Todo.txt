@@ -2,9 +2,9 @@ code for all the maptoInt, maptoDouble
 code for all the collect(Collector.asList, assingleton, joints, split, groupingBy, partitioningBy, new treeset, new object,  etc
 code for reduce
 code for sort
-code for limit
 code for flatmap
 code for orElseget()
 code for max
 code for min
 code for peek
+code for different patterns
