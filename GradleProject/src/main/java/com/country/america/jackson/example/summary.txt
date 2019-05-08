@@ -1,0 +1,14 @@
+Use ObjectMapper for JSON use cases
+use XMLMapper for XML use cases
+
+writeValue() -> to serialize to JSON/xml
+readValue() -> to de-serialize to object from json/xml
+
+
+Jackson version differences
+
+version: 1.x
+org.codehaus.jackson
+
+version: 2.x
+com.fasterxml.jackson
